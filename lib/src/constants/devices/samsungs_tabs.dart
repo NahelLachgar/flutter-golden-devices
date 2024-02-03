@@ -1,4 +1,4 @@
-import 'package:flutter_golden_devices/models/device.dart';
+import '../../models/device.dart';
 
 class FlutterGoldenSamsungTabs {
 static const samsungGalaxyTabS2 = FlutterGoldenDevice('SamsungGalaxyTabS2', 1536, 2048);

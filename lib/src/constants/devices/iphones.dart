@@ -1,4 +1,4 @@
-import 'package:flutter_golden_devices/models/device.dart';
+import '../../models/device.dart';
 
 class FlutterGoldeniPhones {
   static const iphone1 = FlutterGoldenDevice('iphone1', 320, 480);

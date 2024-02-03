@@ -1,7 +1,8 @@
 import 'dart:ui';
-import 'package:flutter_golden_devices/constants/devices/iPads.dart';
-import 'package:flutter_golden_devices/constants/devices/iPhones.dart';
 import 'package:flutter_test/flutter_test.dart';
+
+import '../constants/devices/ipads.dart';
+import '../constants/devices/iphones.dart';
 
 /// Represents a device screen size
 ///
