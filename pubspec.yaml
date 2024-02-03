@@ -1,0 +1,19 @@
+name: flutter_golden_devices
+description: "A Flutter package with a list of devices screen sizes for golden test variants."
+version: 0.0.1
+homepage: github.com/NahelLachgar/flutter_golden_devices
+repository: github.com/NahelLachgar/flutter_golden_devices
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
