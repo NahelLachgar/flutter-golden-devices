@@ -27,7 +27,13 @@ FlutterGoldenDevice('myPhone', 100, 1000);
 This class extends `Size` so you can use ValueVariant<FlutterGoldenDevice> for golden test `variants` property
 
 ## Getting started
-Add `flutter_golden_devices` to your dev dependencies
+Add the package to your dev dependencies like this: 
+```yaml
+ flutter_golden_devices:
+    git:
+      url: https://github.com/NahelLachgar/flutter_golden_devices.git
+      ref: main
+```
 
 ## Usage
 
