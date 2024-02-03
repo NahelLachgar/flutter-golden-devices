@@ -1,10 +1,10 @@
-import 'iPhones.dart';
-import 'iPads.dart';
+import 'iphones.dart';
+import 'ipads.dart';
 import 'samsungs.dart';
 import 'samsungs_tabs.dart';
 
-export 'iPhones.dart';
-export 'iPads.dart';
+export 'iphones.dart';
+export 'ipads.dart';
 export 'samsungs.dart';
 export 'samsungs_tabs.dart';
 
