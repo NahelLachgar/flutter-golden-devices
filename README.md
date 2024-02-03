@@ -16,24 +16,41 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This package includes different tabs and phone screen sizes that you can use for golden tests variants.
+You can also create custom screen sizes with the class `FlutterGoldenDevice`.
+
+Example: 
+```dart
+FlutterGoldenDevice('myPhone', 100, 1000);
+```
+
+This class extends `Size` so you can use ValueVariant<FlutterGoldenDevice> for golden test `variants` property
 
 ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add `flutter_golden_devices` to your dev dependencies
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### Create a golden test
 
+Example:
 ```dart
-const like = 'sample';
+final sizeVariants = FlutterGoldenDevice.getVariant([
+    FlutterGoldeniPhones.iphone15,
+    FlutterGoldeniPads.iPadPro12_9,
+    FlutterGoldenDevice('myPhone', 100, 1000);
+]);
+
+testWidgets(
+    'My widget golden test',
+    (tester) async {
+      // Arrange your test
+      await expectLater(
+          find your widget,
+          matchesGoldenFile(
+            'path_to_the_golden_test_result/widget_name_${sizeVariants.currentValue?.name}.png'),
+            );
+    },
+    variant: sizeVariants,
+  );
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

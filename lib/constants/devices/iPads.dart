@@ -1,7 +1,6 @@
 import 'package:flutter_golden_devices/models/device.dart';
 
 class FlutterGoldeniPads {
-// iPad
   static const iPad2 = FlutterGoldenDevice('iPad2', 768, 1024);
   static const iPad3 = FlutterGoldenDevice('iPad3', 1536, 2048);
   static const iPad4 = FlutterGoldenDevice('iPad4', 1536, 2048);
