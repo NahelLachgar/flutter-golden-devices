@@ -21,6 +21,6 @@ class FlutterGoldenDevice extends Size {
 }
 
 final testVariants = FlutterGoldenDevice.getVariant([
-  FlutterGoldeniPhones.iphone15,
+  FlutterGoldenIPhones.iphone15,
   FlutterGoldeniPads.iPadPro12_9,
 ]);

@@ -42,7 +42,7 @@ Add the package to your dev dependencies like this:
 Example:
 ```dart
 final sizeVariants = FlutterGoldenDevice.getVariant([
-    FlutterGoldeniPhones.iphone15,
+    FlutterGoldenIPhones.iphone15,
     FlutterGoldeniPads.iPadPro12_9,
     FlutterGoldenDevice('myPhone', 100, 1000);
 ]);

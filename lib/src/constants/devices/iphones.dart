@@ -1,6 +1,6 @@
 import '../../models/device.dart';
 
-class FlutterGoldeniPhones {
+class FlutterGoldenIPhones {
   static const iphone1 = FlutterGoldenDevice('iphone1', 320, 480);
   static const iphone3G = FlutterGoldenDevice('iphone3G', 320, 480);
   static const iphone3GS = FlutterGoldenDevice('iphone3GS', 320, 480);
